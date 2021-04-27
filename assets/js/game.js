@@ -84,7 +84,7 @@ var startGame = function() {
     };
 
 //start game when page loads
-startGame();
+
 };
 // function to end entire game
 var endGame = function() {
@@ -108,3 +108,5 @@ var endGame = function() {
         window.alert("Thank you for playing Robot Galdiators! Come back soon!");
     }
 };
+
+startGame();
